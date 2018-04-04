@@ -46,6 +46,17 @@ body{
 
 /* Header Ends */
 
+/* Jumbotron Styles Start */
+
+.jumbotron{
+  background-image: url('../img/laptop-background-2.jpg');
+  height: 475px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Jumbotron Styles End */
+
 
 /* Footer Styles Start*/
 
@@ -53,16 +64,18 @@ footer {
   background-color: #F3E1DD;
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+  color: #89023E;
+}
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   color: #89023E;
   background-color: transparent;
 }
 
-.nav>li>a:focus, .nav>li>a:hover {
-  background-color: transparent;
-  color: #89023E;
 
-}
+
 
 .nav-pills>li>a {
   color: #000;
