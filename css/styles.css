@@ -45,3 +45,41 @@ body{
 
 
 /* Header Ends */
+
+
+/* Footer Styles Start*/
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #89023E;
+  background-color: transparent;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+  color: #89023E;
+
+}
+
+.nav-pills>li>a {
+  color: #000;
+}
+
+/* Social Icons */
+
+.social-icons :hover {
+  color: #89023E;
+}
+
+.social-icons>span>a>i {
+  color: #000;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) {.footer-links {
+  display: none;
+  }
+}
+/* Footer Styles End */
