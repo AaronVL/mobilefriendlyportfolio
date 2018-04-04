@@ -49,6 +49,10 @@ body{
 
 /* Footer Styles Start*/
 
+footer {
+  background-color: #F3E1DD;
+}
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   color: #89023E;
   background-color: transparent;
@@ -72,6 +76,10 @@ body{
 
 .social-icons>span>a>i {
   color: #000;
+}
+
+.social-icons {
+  margin-top: 20px;
 }
 
 
