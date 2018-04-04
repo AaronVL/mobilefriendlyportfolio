@@ -1,0 +1,47 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:700');
+
+
+/* Universal Styles */
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* Header Styles */
+.logo{
+  height: 40px;
+
+}
+
+.flex{
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-default{
+  background-color: #C7D9B7;
+  padding: 10px;
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  color: #89023E;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #89023E;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+
+
+
+
+/* Header Ends */
