@@ -1,0 +1,119 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:700');
+
+
+/* Universal Styles */
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* Header Styles */
+.logo{
+  height: 40px;
+
+}
+
+.flex{
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-default{
+  background-color: #C7D9B7;
+  padding: 10px;
+  border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  color: #89023E;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #89023E;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+
+
+
+
+/* Header Ends */
+
+/* Jumbotron Styles Start */
+
+.jumbotron{
+  background-image: url('../img/laptop-background-2.jpg');
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.jumbo-text{
+  background-color: rgba(0, 0, 0, .5);
+}
+/* Jumbotron Styles End */
+
+/* Bio Section Starts */
+
+.bio-section{
+  height: 400px;
+
+}
+/* Bio Section Ends */
+
+
+/* Footer Styles Start*/
+
+footer {
+  background-color: #F3E1DD;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+  color: #89023E;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #89023E;
+  background-color: transparent;
+}
+
+
+
+
+.nav-pills>li>a {
+  color: #000;
+}
+
+/* Social Icons */
+
+.social-icons :hover {
+  color: #89023E;
+}
+
+.social-icons>span>a>i {
+  color: #000;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) {.footer-links {
+  display: none;
+  }
+}
+/* Footer Styles End */
