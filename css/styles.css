@@ -50,12 +50,25 @@ body{
 
 .jumbotron{
   background-image: url('../img/laptop-background-2.jpg');
-  height: 475px;
+  height: 500px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #fff;
+}
+
+.jumbo-text{
+  background-color: rgba(0, 0, 0, .5);
 }
 /* Jumbotron Styles End */
+
+/* Bio Section Starts */
+
+.bio-section{
+  height: 400px;
+
+}
+/* Bio Section Ends */
 
 
 /* Footer Styles Start*/
