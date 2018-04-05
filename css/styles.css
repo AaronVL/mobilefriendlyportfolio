@@ -46,6 +46,30 @@ body{
 
 /* Header Ends */
 
+/* Jumbotron Styles Start */
+
+.jumbotron{
+  background-image: url('../img/laptop-background-2.jpg');
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.jumbo-text{
+  background-color: rgba(0, 0, 0, .5);
+}
+/* Jumbotron Styles End */
+
+/* Bio Section Starts */
+
+.bio-section{
+  height: 400px;
+
+}
+/* Bio Section Ends */
+
 
 /* Footer Styles Start*/
 
@@ -53,16 +77,18 @@ footer {
   background-color: #F3E1DD;
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent;
+  color: #89023E;
+}
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   color: #89023E;
   background-color: transparent;
 }
 
-.nav>li>a:focus, .nav>li>a:hover {
-  background-color: transparent;
-  color: #89023E;
 
-}
+
 
 .nav-pills>li>a {
   color: #000;
